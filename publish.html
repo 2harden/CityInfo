@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>信息发布</title>
+<link href="css/publish.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div id="container">
+    	<div id="front">
+    		<h3>■发布信息</h3>
+            <form action="index.html" method="get">
+            	<table>
+                	<tr>
+                    	<td rowspan="1">信息类别：</td>
+                        <td>
+                        	<select>
+                                <option value=""></option>
+                                <option value=info_content"">信息内容</option>
+                                <option value="info_phone">练习电话</option>
+                                <option value="info_email">E-mail地址</option>
+                                <option value="id">id值</option>
+                                <option value="info_title">信息标题</option>
+                                <option value="info_linkman">联系人</option>
+                            </select>
+                            [信息标题最多不得超过40个字符]
+                        </td>
+                    </tr>
+                    <tr>
+                    	<td rowspan="1">信息标题：</td>
+                        <td><input type="text" size="60px"/></td>
+                    </tr>
+                    <tr>
+                    	<td>信息内容：</td>
+                        <td>
+                        	<textarea rows="5" cols="60">
+								这里是文本域中的文本...
+							</textarea>
+
+                        </td>
+                    </tr>
+                    <tr>
+                    	<td>联系电话：</td>
+                        <td>
+                        	<input type="text" size="40px"/>
+                            [多个电话以逗号分隔！]
+                        </td> 
+                    </tr>
+                    <tr>
+                    	<td>联&nbsp;系&nbsp;人：</td>
+                        <td><input type="text" size="50px"/></td>
+                    </tr>
+                    <tr>
+                    	<td>E - mail：</td>
+                        <td><input type="text" size="60px"/></td>
+                    </tr>
+                    <tr>
+                    	<td colspan="2" align="center">
+                        	<input type="submit" value="发布"/>
+                       		<input type="reset" value="重填"/>
+                       </td>
+                    </tr>
+                </table>	
+            </form>
+    	</div>
+    </div>
+</body>
+</html>

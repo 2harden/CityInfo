@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>后台已支付信息id检索</title>
+<link href="css/b_pay_idSearch.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript" src="js/My97DatePicker/WdatePicker.js">
+
+</script>
+</head>
+<body>
+	<div id="container">
+    	<div id="top">
+    		<div id="top_pic">
+    			<ul>
+                	<li><a href="index.html"><img src="images/admin_index.gif"/></a></li>
+                    <li><a href="b_login.html"><img src="images/admin_exit.gif"/></a></li>
+                </ul>
+    		</div>
+    	</div>
+        <div id="bottom">
+    		 <div id="bottom_top">
+    			
+    		</div>
+         	<div id="bottom_bottom">
+    			<div id="bottom_bottom_left">
+    				<div id="bottom_bottom_left_pic">
+    					<div id="bottom_bottom_left_pic_top">
+    					
+    					</div>
+                    	<div id="bottom_bottom_left_pic_middle">
+    						<div id="bottom_bottom_left_pic_middle_text">
+    							<span>
+                            		付费设置[ID值：111]
+                            	</span>
+                                <div id="bottom_bottom_left_pic_middle_table">
+                                    <table border="1" bordercolor="gray" cellspacing="0" width="205%">
+                                        <tr bgcolor="#F0F0F0">
+                                            <td colspan="4" align="center">信息详细内容</td>
+                                        </tr>
+                                        <tr>
+                                            <td>信息类别：</td>
+                                            <td>【招聘信息】</td>
+                                            <td>付费状态：</td>
+                                            <td>★已付费</td>
+                                        </tr>
+                                        <tr>
+                                            <td>发布时间：</td>
+                                            <td>2017-11-6 11：16：14</td>
+                                            <td>审核状态：</td>
+                                            <td>★已审核</td>
+                                        </tr>
+                                        <tr>
+                                            <td>信息标题：</td>
+                                            <td>招聘信息标题</td>
+                                        </tr>
+                                        <tr bgcolor="#F0F0F0">
+                                            <td>信息内容：</td>
+                                            <td><input type="submit" value="√设为付费"/></td>
+                                            <td colspan="2"><input type="submit" value="×删除信息"/></td>
+                                        </tr>
+                                    </table>
+                                </div>
+    						</div>
+                            <div id="bottom_bottom_left_pic_middle_box">
+                            	招聘信息内容
+                                <br /> <br /> <br />
+                                <br /> <br /> <br />
+                                <br /> <br /> <br />
+                                联系电话：132********
+                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                联系人：明明
+                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                E - mail:white@163.com
+                            </div>
+    					</div>
+                    	<div id="bottom_bottom_left_pic_bottom">
+    						
+    					</div>
+    				</div>
+    			</div>
+                <div id="bottom_bottom_right">
+    				<div id="bottom_bottom_right_1">
+                    	<h5>■显示方式</h5>
+                    </div>
+                    <div id="bottom_bottom_right_2">
+                    	<div id="bottom_bottom_right_2_top">
+                            <span>
+                                ★付费状态
+                            </span>
+                    		<div id="bottom_bottom_right_2_top_table">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <input type="radio" name="type1" value="all"/>未付款
+                                        </td>
+                                        <td>
+                                            <input type="radio" name="type1" value="all"/>已付款
+                                        </td>
+                                        <td>
+                                            <input type="radio" name="type1" value="all"/>全部
+                                        </td>
+                                    </tr>
+                                </table>
+                             </div>
+                    	</div>
+                        <div id="bottom_bottom_right_2_middle">
+                        	<span>
+                                ★付费状态
+                            </span>
+                    		<div id="bottom_bottom_right_2_middle_table">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <input type="radio" name="type2" value="all"/>未审核
+                                        </td>
+                                        <td>
+                                            <input type="radio" name="type2" value="all"/>已审核
+                                        </td>
+                                        <td>
+                                            <input type="radio" name="type2" value="all"/>全部
+                                        </td>
+                                    </tr>
+                                </table>
+                             </div>
+                    	</div>
+                         <div id="bottom_bottom_right_2_bottom">
+                    		<form action="b_pay.html" method="get">
+                              	信息类别：
+                               	<select>
+                                    <option value=""></option>
+                                    <option value="info_content">招聘信息</option>
+                                    <option value="info_phone">房屋信息</option>
+                                    <option value="info_email">车辆信息</option>
+                                    <option value="id">求职信息</option>
+                                    <option value="info_title">寻找信息</option>
+                                    <option value="info_linkman">家教信息</option>
+                                </select>
+                                <input type="submit" value="显示"/>
+                            </form>
+                    	</div>
+                    </div>
+                    <div id="bottom_bottom_right_3">
+                    	<h5>■付费设置</h5>
+    				</div>
+                    <div id="bottom_bottom_right_4">
+                        <div id="bottom_bottom_right_4_front">
+                            <form action="#" method="get">
+                                请输入要设为已付费状态的信息ID:<br /><br />
+                                <input type="text" size="15px"/>
+                                <input type="submit" value="查询"/>
+                            </form>
+                        </div>
+    				</div>
+                    <div id="bottom_bottom_right_5">
+                    	<h5>■日历</h5>
+                        <div id="cal"> 
+                		
+                        </div>
+    				</div>
+    		</div>
+    	</div>
+    </div>
+</body>
+<script type="text/javascript">
+	WdatePicker({eCont:'cal'})
+</script>
+</html>

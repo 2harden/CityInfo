@@ -1,0 +1,46 @@
+/* CSS Document */
+body{
+	margin:0px;
+	padding:0px;	
+}
+#back{
+	width:100%;
+	height:640px;
+	background-color:#CCC;	
+	
+}
+#front{
+	width:540px;
+	height:290px;
+	padding-top:120px;
+	padding-left:400px;
+	position:relative;
+}
+#front_top{
+	width:100%;
+	height:95px;
+	background-image:url(../images/login_top.gif);
+	background-repeat:no-repeat;
+}
+#front_middle{
+	width:100%;
+	height:180px;
+	background-image:url(../images/login_middle.gif);
+	background-repeat:repeat;	
+}
+#front_bottom{
+	width:100%;
+	height:15px;
+	background-image:url(../images/login_end.gif);
+	background-repeat:no-repeat;	
+}
+#front_middle_form{
+	width:340px;
+	height:120px;
+	margin-left:150px;
+}
+a{
+	font-size:10px;
+	text-decoration:none;
+	color:black;	
+}

@@ -1,0 +1,145 @@
+/* CSS Document */
+
+body,ul,ol,li,div,h5{
+		margin:0px;
+		padding:0px;	
+	}
+	a{
+		text-decoration:none;	
+	}
+	#top ul li a{
+		font-size:12px;
+		color:gray;	
+	}
+	#top ul li{
+		list-style:none;
+		line-height:24px;
+	}
+	.f_l{
+		float:left;	
+	}
+	.f_r{
+		float:right;	
+	}
+	#container{
+		width:920px;
+		border:1px solid red;
+		margin:0 auto;	
+	}
+	#header{
+		width:100%;
+		height:192px;
+		background-color:#ccc;
+	}
+	#top{
+		width:100%;
+		height:24px;
+		background-color:white;
+	}
+	#middle{
+		width:100%;
+		height:56px;
+		background-color:red;
+	}
+	#middle_left{
+		width:220px;
+		height:100%;
+		float:left;
+		clear:both;
+		background-color:red;
+		background-image:url(../images/logo.gif);
+		background-repeat:no-repeat;
+	}
+	#middle_right{
+		width:700px;
+		padding-left:0px;
+		height:100%;
+		float:left;
+		background-color:#3F6;
+		background-image:url(../images/menu.gif);
+		background-repeat:no-repeat;
+	}
+	#middle_right ul a{
+		color:white;
+		font-size:14px;			
+	}
+	#middle_right ul li{
+		list-style:none;
+		width:80px;
+		float:right;
+		height:28px;
+		line-height:25px;
+	}
+	#bottom{
+		width:100%;
+		height:112px;
+		background-color:green;
+		background-image:url(../images/pcard1.jpg);
+		background-repeat:no-repeat;
+	}
+	#main{
+		height:400px;
+		background-color:blue;	
+	}
+	#main_left{
+		width:230px;
+		height:100%;
+		float:left;
+		background-color:white;
+	}
+	#calendar{
+		padding-top:10px;
+		padding-left:2px;	
+	}
+	#cal{
+		width:215px;
+		height:215px;
+		background-image:url(../images/leftD.jpg);
+		background-repeat:no-repeat;
+		padding-top:15px;
+		padding-left:15px;	
+	}
+	#search{
+		width:225px;
+		height:95px;
+		background-image:url(../images/leftS.jpg);
+		background-repeat:no-repeat;
+		padding-top:15px;
+		padding-left:15px	
+	}
+	#search table{
+		border:0px solid;
+		font-size:12px;
+	}
+	#main_right{
+		width:690px;
+		height:100%;
+		float:left;
+		background-color:white;
+	}
+	#main_right_top h5{
+		line-height:40px;
+		color:blue;	
+	}
+	#main_right_middle{
+		width:672px;
+		height:275px;
+		font-size:13px;
+		line-height:30px;
+		margin:0px auto;
+	}
+	#main_right_middle td{
+		border:none;
+	}
+	#main_right_bottom{
+		font-size:13px;
+		margin-top:15px;
+		margin-left:10px;
+	}
+	#footer{
+		height:53px;
+		width:100%;
+		background-color:#ccc;
+		background-image:url(../images/end.jpg);
+		background-repeat:no-repeat;
+	}

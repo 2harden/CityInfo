@@ -1,0 +1,23 @@
+/* CSS Document */
+body,h3,div{
+	margin:0px;
+	padding:0px;	
+}
+#container{
+	width:672px;
+	height;650px;
+	margin:0px auto;
+	background-color:#CCC;
+	border:gray solid 1px;
+}
+#front{
+	width:650px;
+	height:610px;
+	margin:10px auto;
+	border:black solid 1px;
+	border-radius:5px;	
+	background-color:white;
+}
+h3{
+	color:blue;	
+}
